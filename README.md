@@ -13,8 +13,10 @@ python -m venv venv
 venv\Scripts\activate (Windows) or source venv/bin/activate (macOS/Linux)
 pip install -r requirements.txt
 python app.py
-Open http://127.0.0.1:5000/
-Default accounts:
+
+* Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.233:5000
 
 admin / admin123 (admin)
 cliente1 / cliente123 (cliente)
